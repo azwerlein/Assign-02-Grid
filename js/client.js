@@ -9,4 +9,10 @@ $(function () {
         toast.play();
         $('#liveToast').toast({ autohide: false }).toast('show');
     });
+    // Hide toast on escape
+    $(document).on('keydown', function (e) {
+        if (e.key == 'Escape') {
+            $('#liveToast').toast('hide');
+        }
+    });
 });
