@@ -22,7 +22,7 @@
     <div class="position-fixed bottom-0 right-0 p-3" style="z-index: 5; right: 0; bottom: 0;">
         <div id="liveToast" class="toast hide" role="alert" aria-live="assertive" aria-atomic="true" data-delay="2000">
             <div class="toast-header">
-                <strong class="mr-auto">Product Name</strong>
+                <strong id="productName" class="mr-auto">Product Name</strong>
                 <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -96,7 +96,7 @@
                 You don't want to make Chef Anton mad, do you?
             </div>
             <i>Discount expires: 2/25/2024</i><br />
-            <a href="#" class="code"><i class="far fa-hand-point-right"></i> Discount Code</a>
+            <a href="#" class="code" data-product="Chef Anton's Italian Seasoning" data-code="1234"><i class="far fa-hand-point-right"></i> Discount Code</a>
         </div>
         <div class="col-md">
             <h3>Go Green</h3>
@@ -105,7 +105,7 @@
                 Order now to save 10% off our already low price.
             </div>
             <i>Discount expires: 2/25/2019</i><br />
-            <a href="#" class="code"><i class="far fa-hand-point-right"></i> Discount Code</a>
+            <a href="#" class="code" data-product="Genen Shouyu" data-code="3367"><i class="far fa-hand-point-right"></i> Discount Code</a>
         </div>
         <div class="col-md">
             <h3>Half Price</h3>
@@ -114,7 +114,7 @@
                 Get it now for 50% off!
             </div>
             <i>Discount expires: 2/25/2019</i><br />
-            <a href="#" class="code"><i class="far fa-hand-point-right"></i> Discount Code</a>
+            <a href="#" class="code" data-product="Schoggi Schokolade" data-code="4021"><i class="far fa-hand-point-right"></i> Discount Code</a>
         </div>
     </div>
 
