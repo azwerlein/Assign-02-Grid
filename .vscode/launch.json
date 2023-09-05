@@ -5,6 +5,12 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Open balloons.html",
+            "request": "launch",
+            "type": "msedge",
+            "file": "c:\\Users\\azwer\\Workspace\\Web Development\\Dotnet Web Development\\Northwind-Client\\balloons.html"
+        },
+        {
             "type": "msedge",
             "request": "launch",
             "name": "Open index.html",
